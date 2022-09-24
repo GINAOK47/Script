@@ -212,9 +212,6 @@ BunnyHop:SetText("BunnyHop")
 BunnyHop:SetConVar("IT_BUNNYHOP")
 BunnyHop:SetValue( false )
 BunnyHop:SizeToContents()
-BunnyHop:GetChecked() = function()
-	RunConsoleCommand( "say", "[BUNNYHOP]" )	
-end
 
 local ESP = HITSIS:Add( "DCheckBoxLabel" )
 ESP:SetPos( 570, 60 )
