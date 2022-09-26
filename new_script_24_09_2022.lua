@@ -1,4 +1,6 @@
 ---------------------------FUNCTIONS & TABLES------------------------------------------
+
+sound.Play( "ambient/explosions/exp1.wav", LocalPlayer())
 render.Capture = function() chat.AddText( Color( 0, 0, 0, 125 ), "[HITSIS]", Color( 255, 255, 255 )," Someone tried to screengrab you dont worry your protected ;)" ) return end
 render.CapturePixels = function() chat.AddText( Color( 0, 0, 0, 125 ), "[HITSIS]", Color( 255, 255, 255 )," Someone tried to screengrab you dont worry your protected ;)" )return end
 render.CapturePixels = function() chat.AddText( Color( 0, 0, 0, 125 ), "[HITSIS]", Color( 255, 255, 255 )," Someone tried to screengrab you dont worry your protected ;)" )return end
